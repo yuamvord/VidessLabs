@@ -1,16 +1,16 @@
-"use client";
-import { MessageSquare } from 'lucide-react';
+import Link from 'next/link';
+import { MessageCircle } from 'lucide-react'; 
 
-export const FloatingChat = () => {
+export default function WhatsAppButton() {
   return (
-    <div className="fixed bottom-8 right-8 z-[100]">
-      <button 
-        onClick={() => console.log("Abrir panel de OpenAI")}
-        className="w-16 h-16 bg-[#800ED4] rounded-full flex items-center justify-center text-white shadow-2xl hover:scale-110 active:scale-95 transition-all"
-        aria-label="Abrir chat"
-      >
-        <MessageSquare size={28} />
-      </button>
-    </div>
+    <Link 
+      href="https://wa.me/50255705760" 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="bg-[#25D366] text-white px-6 py-3 rounded-full flex items-center gap-2 hover:bg-[#128C7E] transition-all"
+    >
+      <MessageCircle size={20} />
+      Contactar por WhatsApp
+    </Link>
   );
-};
+}
