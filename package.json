@@ -18,7 +18,6 @@
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "recharts": "^3.8.0",
-    "sanity": "^4.22.0",
     "styled-components": "^6.3.12"
   },
   "devDependencies": {
