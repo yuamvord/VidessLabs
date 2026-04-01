@@ -14,7 +14,6 @@ export default function WhatsAppButton() {
                  shadow-lg hover:bg-[#6b0cb3] 
                  transition-all duration-300 hover:scale-110"
       aria-label="Contactar por WhatsApp"
-    )
     >
       <MessageCircle size={30} strokeWidth={1.5} />
     </Link>
