@@ -4,7 +4,7 @@ import { Hero } from './components/home/Hero';
 import { SolutionCard } from './components/home/SolutionCard';
 import { Methodology } from './components/home/Methodology';
 import { CtaSection } from './components/home/CtaSection';
-import { FloatingChat } from './components/home/FloatingChat';
+import { WhatsAppButton } from './components/home/FloatingChat';
 
 export default function HomePage() {
   return (
