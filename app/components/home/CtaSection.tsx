@@ -11,7 +11,7 @@ export const CtaSection = () => {
         </h2>
         
         <Link 
-          href="https://wa.me/50255705760/?text=Hola%20VidessLabs%20me%20gustaría%20hablar%20con%20un%20ingeniero." 
+          href="https://wa.me/50242782679/?text=Hola%20VidessLabs%20me%20gustaría%20hablar%20con%20un%20ingeniero." 
           target="_blank" 
           rel="noopener noreferrer"
         >
