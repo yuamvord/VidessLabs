@@ -108,7 +108,7 @@ export default function CotizadorPage() {
   };
 
   const handleWhatsAppSubmit = () => {
-    const phoneNumber = "50255705760"; 
+    const phoneNumber = "50242782679"; 
     
     const message = `*Cotización Técnica B2B - VidessLabs* 🚀\n\n` +
       `*Cliente:*\n` +
