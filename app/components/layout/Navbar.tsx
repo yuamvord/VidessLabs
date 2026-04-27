@@ -98,7 +98,7 @@ export const Navbar = () => {
         </div>
 
         <div className="hidden md:block">
-          <Link href="https://wa.me/50255705760/?text=Hola%20VidessLabs%20me%20gustaría%20hablar%20con%20un%20ingeniero." target="_blank" rel="noopener noreferrer">
+          <Link href="https://wa.me/50242782679/?text=Hola%20VidessLabs%20me%20gustaría%20hablar%20con%20un%20ingeniero." target="_blank" rel="noopener noreferrer">
             <Button text="Hablemos" variant="primary"/>
           </Link>
         </div>
@@ -155,7 +155,7 @@ export const Navbar = () => {
           </Link>
 
           <div className="mt-8">
-            <Link href="https://wa.me/50255705760/?text=Hola%20VidessLabs,%20me%20gustaría%20hablar%20con%20un%20ingeniero." target="_blank" rel="noopener noreferrer">
+            <Link href="https://wa.me/50242782679/?text=Hola%20VidessLabs,%20me%20gustaría%20hablar%20con%20un%20ingeniero." target="_blank" rel="noopener noreferrer">
               <button className="w-full bg-[#800ED4] text-white px-6 py-4 rounded-xl font-bold text-lg active:scale-95 transition-transform">
                 Hablemos con un Ingeniero
               </button>
