@@ -6,7 +6,7 @@ import { ProjectModal } from '../components/portfolio/ProjectModal';
 import { Navbar } from '../components/layout/Navbar';
 import { Footer } from '../components/layout/footer';
 
-type CategoryFilter = 'all' | 'data' | 'bots' | 'web';
+type CategoryFilter = 'all' | 'data' | 'automatizacion' | 'web';
 
 const mockProjects: ProjectType[] = [
   {
@@ -25,7 +25,36 @@ const mockProjects: ProjectType[] = [
     ],
     projectUrl: 'https://aibotextil.com' 
   },
-  
+  {
+    _id: '2',
+    title: 'Plataforma Corporativa Multilenguaje',
+    slug: { current: 'portal-corporativo-web' },
+    category: 'web',
+    coverImageUrl: '/img/img_projects/tsf.png',
+    challenge: 'Talento sin fronteras, una empresa especializada en el reclutamiento y captación de talento para el extranjero necesitaba actualizar su página web para hacerla más amigable y pasar de una simple landing page a un sitio web corporativo de captación de leads.',
+    solution: 'Desarrollamos una página web corporativa donde el cliente puede interactuar con distintos tipos de contenido y realizar un contacto efectivo con la empresa a través de la plataforma optimizada para la experiencia del usuario y las empresas.',
+    techStack: ['HTML', 'Tailwindcss', 'JavaScript', 'AOS Library', 'Jotform Integration'],
+    metrics: [
+      { label: 'Conversión de Leads', value: '+75%' },
+      { label: 'Tiempo de Cotización', value: '-50%' },
+      { label: 'Carga de Página', value: '<1.0s' }
+    ],
+    projectUrl: 'https://www.talentosinfronterasgt.com/' 
+  },
+  {
+    _id: '3',
+    title: 'Automatización de Procesos y Análisis de Datos para Institución Financiera Regional',
+    slug: { current: 'automatizacion-corporativa' },
+    category: 'automatizacion',
+    coverImageUrl: '/img/img_projects/automatizacionBanco.jpg',
+    challenge: 'El cliente manejaba grandes volúmenes de datos dispersos que retrasabam la toma de decesiones y provocaba cuellos de botella operativos lo cual impedia realizar una correcta gestión de recursos.',
+    solution: 'Desarrollo de scrips de extracción de datos y documentación automatizada y estructuración de modelos relacionales, reduciendo así el tiempo de procesamiento de datos.',
+    techStack: ['Power Automate', 'JavaScript', 'CRM', 'SharePoint'],
+    metrics: [
+      { label: 'Reducción de Tiempos', value: '-70%' },
+      { label: 'Margen de Error Humano', value: '0%' }  
+    ],
+  },
 ];
 
 export default function PortfolioPage() {
@@ -41,7 +70,7 @@ export default function PortfolioPage() {
   const filterOptions: { label: string; value: CategoryFilter }[] = [
     { label: 'Todos', value: 'all' },
     { label: 'Data & Analytics', value: 'data' },
-    { label: 'Automatización & Bots', value: 'bots' },
+    { label: 'Automatización & Bots', value: 'automatizacion' },
     { label: 'Desarrollo Web', value: 'web' },
   ];
   
